@@ -8,3 +8,7 @@ spring:
       uri: http://localhost:8888/
 server:
   port: 8881
+#以下配置是避免 http://localhost:8881/refresh 需要权限问题
+management:
+  security:
+    enabled: false

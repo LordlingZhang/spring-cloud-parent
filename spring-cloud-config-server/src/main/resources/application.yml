@@ -10,7 +10,7 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/zyaidc/test
-          searchPaths: spring-cloud/helloworldConfig
+          uri: https://github.com/LordlingZhang/spring-cloud-parent
+          searchPaths: config-file
   application:
     name: config-server
