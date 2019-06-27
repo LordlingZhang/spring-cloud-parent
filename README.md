@@ -7,7 +7,11 @@
 
 
 #### 访问页面
-- ribbon的熔断监控页面
+- ribbon/feign的熔断监控页面
 > http://localhost:8901/hystrix
 - 监控详情填充
 > http://localhost:8901/hystrix.stream
+- 同时监控多个接口
+> http://localhost:8903/hystrix
+
+> 填充 http://localhost:8903/turbine.stream
