@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
  * @description
  * @date 2019/6/26
  */
-@FeignClient(value = "SERVICE-HELLOWORLD")
+@FeignClient(value = "SERVICE-HELLOWORLD", fallback = HelloServiceFailureImpl.class)
 public interface HelloService {
 
 
