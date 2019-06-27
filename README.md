@@ -14,7 +14,6 @@
 
 **启动顺序从上到下**
 
-
 #### 访问页面
 - 刷新config-server(POST)
 > http://localhost:8881/refresh
