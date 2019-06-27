@@ -17,6 +17,8 @@
 #### 访问页面
 - 刷新config-server(POST)
 > http://localhost:8881/refresh
+- 通过rabbitmq刷新config-server(POST)
+> http://localhost:8881//bus/refresh
 
 - ribbon/feign的熔断监控页面
 > http://localhost:8901/hystrix
